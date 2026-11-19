@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 数据文件（体积大，不入库）
+*.xlsx
+*.xls
+!data_sample/*.xlsx
+*.csv
+!data_sample/*.csv
+*.json
+!progress*.json
+
+# 本地配置与凭据
+.env
+config.local.py
+cookies.txt
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
